@@ -1,0 +1,15 @@
+package com.example.restaurantrating.model;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class Rating {
+    private Long visitorId;
+    private Long restaurantId;
+    private Integer rating;
+    private String reviewText;
+}
