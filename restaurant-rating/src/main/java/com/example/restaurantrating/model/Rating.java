@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Rating {
+    private Long id;
     private Long visitorId;
     private Long restaurantId;
     private Integer rating;
